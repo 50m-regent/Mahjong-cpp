@@ -1,7 +1,7 @@
 TARGET   = test
-SOURCE   = test.cpp types/paiset.cpp types/shoupai.cpp
-OBJECT   = test.o paiset.o shoupai.o
-INCLUDE  = -I/Users/len/Documents/MahjongAIBattle
+SOURCE   = constants/tile.cpp constants/wind.cpp game.cpp test.cpp
+OBJECT   = tile.o wind.o game.o test.o
+INCLUDE  = -I/Users/len/Documents/Mahjong-cpp
 FLAGS    = --std=c++20
 
 $(TARGET): $(OBJECT)
